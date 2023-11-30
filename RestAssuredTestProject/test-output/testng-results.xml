@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-30T16:35:10 CST" name="Default suite" finished-at="2023-11-30T16:35:11 CST" duration-ms="1545">
+    <groups>
+    </groups>
+    <test started-at="2023-11-30T16:35:10 CST" name="Default test" finished-at="2023-11-30T16:35:11 CST" duration-ms="1545">
+      <class name="com.test.RestAssuredGitAutomationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.RestAssuredGitAutomationTest@4803b726]" started-at="2023-11-30T16:35:10 CST" name="setUp" finished-at="2023-11-30T16:35:10 CST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAllRepository()[pri:0, instance:com.test.RestAssuredGitAutomationTest@4803b726]" started-at="2023-11-30T16:35:10 CST" name="getAllRepository" finished-at="2023-11-30T16:35:11 CST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllRepository -->
+      </class> <!-- com.test.RestAssuredGitAutomationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
