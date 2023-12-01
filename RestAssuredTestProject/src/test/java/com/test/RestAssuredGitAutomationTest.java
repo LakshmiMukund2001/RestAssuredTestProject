@@ -20,21 +20,6 @@ public class RestAssuredGitAutomationTest {
 	}
 	
 	
-	
-	  /* public void JSONSchemaValidation() {    
-	
-	         File schema = new File(schema1.json);
-	        given()
-	        .get("http://localhost:8080/student/10").
-	
-	       then().
-	
-	           body(matchesJsonSchema(schema));      
-	
-	     }*/
-
-
-
 	@Test
 	public void getAllRepository() {
 		String token = "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";
