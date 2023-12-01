@@ -23,7 +23,7 @@ public class RestAssuredGitAutomationTest {
 	@Test
 	public void getAllRepository() {
 		String token = "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";
-		File schema = new File("target/schema.json");
+		File schema = new File("resources/schema.json");
 		Response response =  RestAssured
 				.given()
 				.header("Content-Type", "application/json")
